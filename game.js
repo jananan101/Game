@@ -183,7 +183,7 @@ var level_up = 1;
 		Xpos = 0.2;
 		Xpos1 = 0.2;
 	}
-	//first cpu bounce algorithim
+	//first cpu bounce algorithm
 	function check_bounce(){
 		if (ccx >= canvas.width - cpu_radius || ccx <= 0 + cpu_radius) {
 			cpuX = -(cpuX);
@@ -202,7 +202,7 @@ var level_up = 1;
 		ctx.closePath();
 	}
 
-	//second cpu bounce algorithim
+	//second cpu bounce algorithm
 	function enemy_bounce(){
 		if (Xpos >= canvas.width - enemy_radius || Xpos <= 0 + enemy_radius) {
 			espdX = -(espdX);
